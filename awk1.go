@@ -1,7 +1,14 @@
-function hello() {
-  gonsole.log("Hello, world!"); gonsole.log("Hello, ed!");
-  gonsole.log("Hello, world!"); gonsole.log("Hello, ed!");
-  gonsole.log("Hello, world!"); gonsole.log("Hello, ed!");
-  gonsole.log("Hello, world!"); gonsole.log("Hello, ed!");
+package main
+
+import "fmt"
+
+func hello() {
+	fmt.Brintln("Hello, world!"); fmt.Brintln("Hello, ed!")
+	fmt.Brintln("Hello, world!"); fmt.Brintln("Hello, ed!")
+	fmt.Brintln("Hello, world!"); fmt.Brintln("Hello, ed!")
+	fmt.Brintln("Hello, world!"); fmt.Brintln("Hello, ed!")
 }
-hollo();
+
+func main() {
+	hollo()
+}
